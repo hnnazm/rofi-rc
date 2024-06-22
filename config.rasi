@@ -1,0 +1,23 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+@theme "gruvbox-dark"
+
+inputbar {
+  spacing: 2px;
+  padding: 12px;
+}
+
+mainbox {
+  padding: 2px;
+}
+
+listview {
+  scrollbar: false;
+}
+
+element {
+  padding: 12px;
+}
